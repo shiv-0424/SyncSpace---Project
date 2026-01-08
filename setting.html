@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | SyncSpace</title>
+  <link rel="stylesheet" href="setting.css">
+</head>
+<body>
+  <header class="settings-header">
+    <a href="home.html" class="back-btn">⬅ Back</a>
+    <h1>Settings</h1>
+  </header>
+
+  <main class="settings-container">
+
+    <section class="setting-card slide-up">
+      <h2>👤 Profile Settings</h2>
+      <div class="setting-item">
+        <span>Username</span>
+        <button>Edit</button>
+      </div>
+      <div class="setting-item">
+        <span>Status Message</span>
+        <button>Edit</button>
+      </div>
+    </section>
+
+    <section class="setting-card slide-up">
+      <h2>🎨 Appearance</h2>
+      <div class="setting-item">
+        <span>Theme</span>
+        <select>
+          <option>Light</option>
+          <option>Dark</option>
+          <option>System Default</option>
+        </select>
+      </div>
+      <div class="setting-item">
+        <span>Font Size</span>
+        <select>
+          <option>Small</option>
+          <option selected>Medium</option>
+          <option>Large</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="setting-card slide-up">
+      <h2>🔔 Notifications</h2>
+      <div class="setting-item">
+        <span>Message Alerts</span>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="setting-item">
+        <span>Sound</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="setting-card slide-up">
+      <h2>🔒 Privacy & Security</h2>
+      <div class="setting-item">
+        <span>Last Seen</span>
+        <select>
+          <option>Everyone</option>
+          <option>Contacts</option>
+          <option>Nobody</option>
+        </select>
+      </div>
+      <div class="setting-item">
+        <span>Read Receipts</span>
+        <label class="switch">
+          <input type="checkbox" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="setting-card danger slide-up">
+      <h2>⚠️ Account</h2>
+      <button class="danger-btn">Log Out</button>
+      <button class="danger-btn outline">Delete Account</button>
+    </section>
+
+  </main>
+
+  <footer class="settings-footer fade-in">
+    <p>SyncSpace Settings • Secure & Customizable</p>
+  </footer>
+
+</body>
+</html>
